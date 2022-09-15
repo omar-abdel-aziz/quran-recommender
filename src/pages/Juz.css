@@ -1,0 +1,21 @@
+.JuzPage {
+  display: grid;
+  grid: auto/ auto auto auto;
+  align-items: center;
+  margin-bottom: 7vh;
+  margin-left: 2vw;
+}
+.JuzPage button {
+  padding: 2em;
+  border-radius: 2em;
+  margin-top: 2vh;
+  margin-right: 2vw;
+  border-color: rgba(58, 177, 106, 0.581);
+  background-color: rgba(58, 177, 106, 0.581);
+}
+.JuzPage button:hover {
+  cursor: pointer;
+  background-color: aquamarine;
+  border-radius: 3em;
+  transition: 310ms;
+}

@@ -1,0 +1,30 @@
+.surahButton {
+  background-color: aquamarine;
+  transition: 600ms;
+  width: 60vw;
+  height: 15vh;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  margin-bottom: 2vh;
+  border-radius: 2em;
+  justify-content: start;
+  align-items: center;
+}
+.Scontent div {
+  width: 40vw;
+  font-size: 9vmin;
+}
+.sInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.sInfo div {
+  font-size: 2.5vmin;
+}
+.surahButton:hover {
+  background-color: rgb(30, 62, 51);
+  color: white;
+  cursor: pointer;
+}

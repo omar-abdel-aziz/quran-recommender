@@ -1,0 +1,101 @@
+.recP {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 90vh;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+.lSide {
+  display: flex;
+  flex-direction: column;
+  width: 47%;
+  height: 85vh;
+  margin: 2em;
+}
+.weekly {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 42.5vh;
+  background-color: aquamarine;
+  border-radius: 3em;
+  margin: 2em;
+}
+.aSearch {
+  width: 100%;
+  height: 42.5vh;
+  background-color: aquamarine;
+  border-radius: 3em;
+  margin: 2em;
+}
+.daily {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 47%;
+  height: 70vh;
+  background-color: aquamarine;
+  border-radius: 3em;
+  margin: 2em;
+}
+.bB,
+.kB {
+  background-color: white;
+  border: none;
+  border-radius: 1em;
+  width: 40%;
+  height: 4.5vh;
+  box-shadow: #02170f 0px 1px 2px;
+  margin-top: 0.8vh;
+}
+.fS {
+  background-color: white;
+  border: none;
+  border-radius: 1em;
+  width: 40%;
+  height: 4.5vh;
+  box-shadow: #02170f 0px 1px 2px;
+}
+.kA,
+.wS,
+.kS,
+.mS,
+.iS,
+.fS,
+.nS {
+  background-color: white;
+  border: none;
+  border-radius: 1em;
+  width: 40%;
+  height: 4.5vh;
+  box-shadow: #02170f 0px 1px 2px;
+  margin-top: 0.8vh;
+}
+.bB:hover,
+.kB:hover,
+.fS:hover {
+  cursor: pointer;
+  box-shadow: #02170f 0px 3px 5px;
+  transition: 700ms;
+  width: 42%;
+  height: 4.65vh;
+  margin-top: 0.3vh;
+}
+.kA:hover,
+.wS:hover,
+.kS:hover,
+.mS:hover,
+.nS:hover,
+.fS:hover,
+.iS:hover {
+  cursor: pointer;
+  box-shadow: #02170f 0px 3px 5px;
+  transition: 600ms;
+  width: 42%;
+  height: 4.65vh;
+  margin-top: 1.1vh;
+}

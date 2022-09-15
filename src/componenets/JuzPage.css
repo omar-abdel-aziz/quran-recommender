@@ -1,0 +1,8 @@
+.jPage {
+  margin-top: 3vh;
+  margin-bottom: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

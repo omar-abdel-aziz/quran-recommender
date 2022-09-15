@@ -1,0 +1,28 @@
+.navBar {
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #3eb489;
+  bottom: 0;
+  position: fixed;
+  z-index: 1;
+}
+.navBar button {
+  background-color: #3eb489;
+  border: none;
+  color: white;
+  /* padding: 15px 32px; */
+  text-align: center;
+  font-size: 2.5vmin;
+  transition: 700ms;
+  width: 6vw;
+}
+.navBar button:hover {
+  background-color: #12402f;
+  cursor: pointer;
+
+  box-shadow: #02170f 0px 5px 15px;
+  border-radius: 4em;
+}

@@ -1,0 +1,116 @@
+.ayah {
+  text-align: right;
+  font-size: 4vmin;
+  width: 95vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: 1vw;
+  margin-bottom: 5vh;
+  margin-top: 2vh;
+}
+.inner {
+  margin-bottom: 3vh;
+  border: 0.1em solid;
+  border-color: black;
+  border-radius: 0.5em;
+}
+.aud {
+  z-index: 0;
+}
+.AutocompleteSurah {
+  z-index: 1;
+}
+.title {
+  font-size: 7vmin;
+  width: 90vw;
+  height: 10vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  border: 0.1em solid;
+  border-color: #3eb489;
+  border-radius: 0.5em;
+  background-color: #3eb489;
+  color: white;
+}
+.surahAud {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  width: 90vw;
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.sPick {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  align-items: center;
+  margin-bottom: 3vh;
+  border: 0.1em solid;
+  border-color: #0a452f;
+  border-radius: 0.5em;
+}
+.arButton {
+  display: flex;
+  flex-direction: row;
+}
+.arButton button {
+  border-radius: 0.5em;
+  background-color: #3eb489;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 2vmin;
+  transition: 700ms;
+}
+.arButton button:hover,
+.shButton:hover {
+  background-color: #12402f;
+  box-shadow: #02170f 0px 3px 7px;
+  border-radius: 4em;
+  cursor: pointer;
+}
+.shButton {
+  margin-top: 2vh;
+  border-radius: 0.5em;
+  background-color: #3eb489;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 2vmin;
+  transition: 700ms;
+}
+.ending {
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.1em solid;
+  background-color: aquamarine;
+  border-color: aquamarine;
+  border-radius: 0.5em;
+  margin-bottom: 2vh;
+  font-size: 9vmin;
+}
+.pbutton {
+  background-color: #3eb489;
+  border-radius: 2em;
+  border-color: #3eb489;
+  margin: 0.5em;
+  color: white;
+  width: 4vw;
+  height: 4vh;
+  font-size: 2vmin;
+  min-width: 45px;
+}
+.pbutton:hover {
+  background-color: #12402f;
+  box-shadow: #02170f 0px 3px 7px;
+  border-radius: 1em;
+  cursor: pointer;
+  transition: 700ms;
+}
